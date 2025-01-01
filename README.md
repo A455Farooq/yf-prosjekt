@@ -19,12 +19,5 @@ By the end of this project, I will have demonstrated proficiency in:
 - Setting up and pushing to a GitHub repository.  
 - Using SSH for secure connections.
 
-cd ~/reposo
-git clone git@github.com:username/yf-prosjekt.git
-cd yf-prosjekt
-touch README.md
-code README.md
-git add README.md
-git commit -m "Add initial README.md for yf-prosjekt"
-git push origin main
+
 

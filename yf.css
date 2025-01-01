@@ -1,17 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #005d65;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  
-  p {
-    font-size: 18px;
-    text-align: center;
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  text-align: center;
+
+}
+
+.sectionA{
+  margin: 20px;
+  padding: 45px;
+  display: flex;
+  border: 2px solid red;
+  width: 25%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
