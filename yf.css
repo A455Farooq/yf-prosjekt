@@ -1,5 +1,102 @@
-body{
-  background: black;
-  color: antiquewhite;
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+:root{
+  --main-color:#37132d;
+  --main-font:"IBM Plex Sans", serif;
+  --secondory-font:"Acme", serif;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Nav Start*/
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+}
+
+ul li a{
+text-decoration: none;
+margin: 10px;
+color: black;
+font-family: var(--secondory-font);
+
+}
+
+/*Section One Start */
+.content__container{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 80vh;
+
+
+}
+
+.header__content{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ width: 40%;
+ 
+}
+
+.header__heading{
+ font-size: 4rem;
+ font-family: var(--main-font); 
+
+}
+
+.header__sub-headings{
+  width: 70%;
+  font-family: var(--main-color);
+  color: rgb(82, 82, 82);
+  margin: 20px 0;
+  font-weight: bolder;
+
+}
+
+.header__img-container{
+  width: 30%;
+  height: 50vh;
+  position: relative;
+  border: 2px solid blue;
+}
+
+.img-one{
+  position: absolute;
+  left: 10rem;
+
+}
+
+.img-two{
+  position: absolute;
+  left: 3rem;
+  top: 8rem;
+  
+}
+
+
+.header__img{
+  width: 200px;
+  height: 300px;
+}
+
+/*Section One End*/
 
